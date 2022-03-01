@@ -27,10 +27,34 @@
           <h1 class="mb-0">Larisa Gheorghe</h1>
           <div>FRONT-END DEVELOPER</div>
           <br>
-          <div class="switch-mode">switch button
+          <div class="switch-mode d-flex justify-content-center">
+            <div class="col-2 text-right">
+              <i class="fa-solid fa-sun"></i>
+            </div>
+            <div class="col-2">
+              <label class="switch">
+                <input type="checkbox" @click="darkMode">
+                <span class="slider round"></span>
+              </label>
+            </div>
+          <div class="col-2 text-left">
+            <i class="fa-solid fa-moon"></i>
+          </div>
           </div>
         </div>
       </div>
     </header>
   </div>
 </template>
+
+<script>
+export default {
+  name: 'Header',
+  methods: {
+    darkMode() {
+      const header = document.querySelector('header');
+      header.classList.toggle('dark-mode');
+    },
+  },
+};
+</script>
