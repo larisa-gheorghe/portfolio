@@ -224,6 +224,7 @@ label {
   bottom: 0;
   left: 50%;
   margin-left: -3px;
+  max-height: 95%;
 }
 
 /* Container around content */
