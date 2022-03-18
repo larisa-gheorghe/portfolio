@@ -9,6 +9,12 @@
   <section id="skills">
     <skills />
   </section>
+  <section id="experience">
+    <experience />
+  </section>
+  <section id="end">
+    <end-section />
+  </section>
 </template>
 
 <script>
@@ -16,6 +22,8 @@ import Header from '@/components/Header.vue';
 import About from '@/components/About.vue';
 import Portfolio from '@/components/Portfolio.vue';
 import Skills from '@/components/Skills.vue';
+import Experience from '@/components/Experience.vue';
+import EndSection from '@/components/EndSection.vue';
 
 export default {
   name: 'App',
@@ -24,6 +32,8 @@ export default {
     About,
     Portfolio,
     Skills,
+    Experience,
+    EndSection,
   },
 };
 </script>
