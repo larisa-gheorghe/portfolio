@@ -1,15 +1,15 @@
 <template>
   <Header />
-  <section id="about">
+  <section id="about" class="dark-sections">
     <about />
   </section>
-  <section id="portfolio">
+  <section id="portfolio" class="light-sections">
     <portfolio />
   </section>
   <section id="skills">
     <skills />
   </section>
-  <section id="experience">
+  <section id="experience" class="light-sections">
     <experience />
   </section>
   <section id="end">

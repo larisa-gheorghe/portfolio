@@ -1,6 +1,6 @@
 <template>
   <div class="col-md-12">
-    <h1 class="text-black text-center pt-5 pb-4 section-title">
+    <h1 class="text-center pt-5 pb-4 section-title">
         <span>Projects</span>
     </h1>
     <div class="col-md-12 mx-auto">

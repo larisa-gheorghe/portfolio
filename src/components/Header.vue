@@ -55,8 +55,23 @@ export default {
   name: 'Header',
   methods: {
     darkMode() {
-      const header = document.querySelector('header');
-      header.classList.toggle('dark-mode');
+      const theme = document.body.getAttribute('data-theme');
+      console.log(theme);
+      const changeThemeToDark = () => {
+        document.body.setAttribute('data-theme', 'dark');
+        localStorage.setItem('data-theme', 'dark');
+      };
+
+      const changeThemeToLight = () => {
+        document.body.setAttribute('data-theme', 'light');
+        localStorage.setItem('data-theme', 'light');
+      };
+
+      if (theme === 'dark') {
+        changeThemeToLight();
+      } else {
+        changeThemeToDark();
+      }
     },
   },
 };

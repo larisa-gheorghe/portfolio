@@ -18,9 +18,9 @@ header {
   padding-bottom: 0;
 }
 
-.dark-mode {
-    background-color: #404650;
-    color: white;
+[data-theme='dark'] header{
+  background-color: #404650;
+  color: white;
 }
 
 .div-max-height{
@@ -105,8 +105,16 @@ header {
     color: #8e9aaf;
 }
 
-#portfolio, #experience {
+.light-sections {
   background-color: #dee2ff;
+}
+
+[data-theme="dark"] .light-sections {
+  background-color: #404650;
+}
+
+[data-theme="dark"] .dark-sections {
+  background-color: #31353d;
 }
 
 #skills {
@@ -243,7 +251,7 @@ label {
   height: 25px;
   right: -17px;
   background-color: white;
-  border: 4px solid #FF9F55;
+  border: 4px solid #efd3d7;
   top: 15px;
   border-radius: 50%;
   z-index: 1;
