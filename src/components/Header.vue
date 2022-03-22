@@ -57,8 +57,8 @@ export default {
     darkMode() {
       const theme = document.body.getAttribute('data-theme');
       // const storageTheme = localStorage.getItem('data-theme');
-      const toggleSwitch = document.querySelector('[type="checkbox"]');
-      console.log(toggleSwitch);
+      // const toggleSwitch = document.querySelector('[type="checkbox"]');
+      // console.log(toggleSwitch);
       const changeThemeToDark = () => {
         document.body.setAttribute('data-theme', 'dark');
         localStorage.setItem('data-theme', 'dark');
