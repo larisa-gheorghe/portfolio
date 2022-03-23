@@ -227,18 +227,18 @@ label {
   display: none;
 }
 /* Toggle */
-[type="checkbox"]:checked + .app .toggle{
+[data-theme="dark"] .app .toggle{
   transform: translateX(100%);
   background-color: #34323D;
 }
-[type="checkbox"]:checked + .app .dark{
+[data-theme="dark"] .app .dark{
   opacity: 1;
 }
-[type="checkbox"]:checked + .app .light{
+[data-theme="dark"] .app .light{
   opacity: .5;
 }
 /* App */
-[type="checkbox"]:checked + .app .switch-body{
+[data-theme="dark"] .app .switch-body{
   color: white;
 }
 /* Toggle Button */

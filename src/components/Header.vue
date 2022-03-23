@@ -29,7 +29,7 @@
           <br>
           <div class="switch-mode d-flex justify-content-center">
             <div class="col-4 align-items-center">
-              <input type="checkbox" id="switch" @click="darkMode">
+              <input type="checkbox" id="switch" name="theme" @change="darkMode">
               <div class="app mx-auto">
                 <div class="switch-body d-flex">
                   <label for="switch">
@@ -53,12 +53,14 @@
 <script>
 export default {
   name: 'Header',
+  mounted() {
+    const theme = localStorage.getItem('data-theme');
+    document.body.setAttribute('data-theme', theme);
+  },
   methods: {
     darkMode() {
-      const theme = document.body.getAttribute('data-theme');
-      // const storageTheme = localStorage.getItem('data-theme');
-      // const toggleSwitch = document.querySelector('[type="checkbox"]');
-      // console.log(toggleSwitch);
+      // const theme = document.body.getAttribute('data-theme');
+      const theme = localStorage.getItem('data-theme');
       const changeThemeToDark = () => {
         document.body.setAttribute('data-theme', 'dark');
         localStorage.setItem('data-theme', 'dark');
@@ -69,7 +71,9 @@ export default {
         localStorage.setItem('data-theme', 'light');
       };
 
-      if (theme === 'dark') {
+      if (theme === 'dark' && document.body.getAttribute('data-theme') === null) {
+        changeThemeToDark();
+      } else if (theme === 'dark' && document.body.getAttribute('data-theme') !== null) {
         changeThemeToLight();
       } else {
         changeThemeToDark();
