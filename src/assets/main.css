@@ -161,6 +161,17 @@ header {
   color: white;
 }
 
+.solaris svg {
+  left:0;
+  top:0;
+  width: 90%;
+  height: 100%;
+}
+
+.solaris p {
+  font-size: 70%;
+}
+
 /* Wave logo */
 #github-logo:hover .octo-arm {
   animation:octocat-wave 560ms ease-in-out

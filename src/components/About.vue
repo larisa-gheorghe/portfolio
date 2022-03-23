@@ -16,7 +16,7 @@
       <div class="col-md-8 text-center pb-5 d-flex justify-content-center align-items-center">
           <div class="col-md-10">
             <div class="card">
-              <div class="card-header text-left">
+              <div class="card-header text-right">
                 <svg xmlns="http://www.w3.org/2000/svg" xmlns:xlink="http://www.w3.org/1999/xlink" aria-hidden="true" focusable="false" width="1em" height="1em" preserveAspectRatio="xMidYMid meet" viewBox="0 0 64 64" class="iconify" data-icon="emojione:red-circle" data-inline="false" style="transform: rotate(360deg);"><circle cx="32" cy="32" r="30" fill="#ed4c5c"></circle></svg>
                 &nbsp;
                 <svg xmlns="http://www.w3.org/2000/svg" xmlns:xlink="http://www.w3.org/1999/xlink" aria-hidden="true" focusable="false" width="1em" height="1em" preserveAspectRatio="xMidYMid meet" viewBox="0 0 36 36" class="iconify" data-icon="twemoji:yellow-circle" data-inline="false" style="transform: rotate(360deg);"><circle cx="18" cy="18" r="18" fill="#FDCB58"></circle></svg>
