@@ -8,7 +8,7 @@
         <div class="profile-picture">
           <span class="text-center d-block mb-4">
               <div>
-                <img src="https://images.unsplash.com/photo-1552053831-71594a27632d?ixlib=rb-1.2.1&ixid=MnwxMjA3fDB8MHxwaG90by1wYWdlfHx8fGVufDB8fHx8&auto=format&fit=crop&w=662&q=80" alt="" class="mb-0 pb-0 d-block">
+                <img src="../../public/assets/img/larisa.jpg">
               </div>
           </span>
         </div>
@@ -23,15 +23,19 @@
                 &nbsp;
                 <svg xmlns="http://www.w3.org/2000/svg" xmlns:xlink="http://www.w3.org/1999/xlink" aria-hidden="true" focusable="false" width="1em" height="1em" preserveAspectRatio="xMidYMid meet" viewBox="0 0 36 36" class="iconify" data-icon="twemoji:green-circle" data-inline="false" style="transform: rotate(360deg);"><circle cx="18" cy="18" r="18" fill="#78B159"></circle></svg>
               </div>
-              <div class="card-body">
-                Hi!
-                I'm Larisa Gheorghe. Bla bla bla bla bla bla bla bla bla bla bla
-                bla bla bla bla bla bla bla bla bla bla bla bla bla bla bla bla bla bla
-                bla bla bla bla bla bla bla bla bla bla bla bla bla bla bla bla bla bla
-                bla bla bla bla bla bla bla bla bla bla bla bla bla bla bla bla bla bla
-                bla bla bla bla bla bla bla bla bla bla bla bla bla bla bla bla bla bla
-                bla bla bla bla bla bla bla bla bla bla bla bla bla bla bla bla bla bla
-                bla bla bla bla bla bla bla bla bla bla bla bla bla bla bla bla bla bla
+              <div class="card-body text-left">
+                <br>
+                <span class="wave">Hi!</span>
+                <br>
+                <br>
+                <p class="text-justify">
+                I'm Larisa Gheorghe. I'm currently working as a Technical Support Engineer
+                for Solaris Operating System, but I've been self-learning front-end
+                development for the last year. <br>
+                I enjoy bringing ideas to life in the browser and I am continuously
+                working on improving my skills every time I get the opportunity.<br>
+                In this portfolio you will find a few projects I've been working on.
+                </p>
               </div>
             </div>
           </div>

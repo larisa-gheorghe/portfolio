@@ -41,6 +41,10 @@ header {
   letter-spacing: 3px;
 }
 
+.wave {
+  font-size: 160%;
+}
+
 .profile-picture span {
   display: inline-block;
   margin: 55px 75px 30px;
