@@ -16,7 +16,7 @@
           </span>
       </div>
       <div class="text-center py-1">
-        <small>Copyright &copy; Larisa Gheorghe</small>
+        <small>Copyright &copy; 2022, Larisa Gheorghe</small>
       </div>
     </div>
   </footer>
