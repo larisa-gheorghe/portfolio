@@ -21,7 +21,7 @@
           - Worked on and implemented different apps, such as a music app, my wedding invitation app
           and my portfolio. <br>
           <br>
-          - Technologies: HTML5, CSS3, JavaScript, Bootstrap, Vue, NodeJS, MongoDB, GitHub
+          - Technologies: HTML5, CSS3, JavaScript, Bootstrap, Vue, NodeJS, MongoDB, Git
         </p>
       </div>
     </div>
