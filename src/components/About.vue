@@ -29,12 +29,20 @@
                 <br>
                 <br>
                 <p class="text-justify">
-                I'm Larisa Gheorghe. I'm currently working as a Technical Support Engineer
-                for Solaris Operating System, but I've been self-learning front-end
-                development for the last year. <br>
-                I enjoy bringing ideas to life in the browser and I am continuously
-                working on improving my skills every time I get the opportunity.<br>
-                In this portfolio you will find a few projects I've been working on.
+                I'm Larisa Gheorghe, a highly motivated self-taught Front End Developer,
+                currently working as a Technical Support Engineer for Solaris Operating System,
+                seeking to move into web development full time. <br>
+                I graduated from the Politehnica University in Bucharest and have a master's
+                degree in Advanced Wireless Communications.<br>
+                Some of my hobbies include reading anything I can get my hands on and painting,
+                which is one of my oldest and dearest hobbies.<br>
+                After much soul-searching, I came to realize that web development perfectly
+                blends my creative side with my technical side. I thoroughly enjoy bringing
+                ideas to life in the browser and I am continuously working on improving my
+                skills every time I get the opportunity.<br>
+                In this portfolio, you will find a few projects I've been working on.<br>
+                Feel free to leave me a Linkedin message or an Email using the icons at the bottom
+                of this portfolio.
                 </p>
               </div>
             </div>

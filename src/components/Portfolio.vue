@@ -10,7 +10,7 @@
               <div class="foto" @click="redirectToWeddingApp">
                   <div>
                     <img src="../../public/assets/img/wedding.jpg" alt="" class="mb-0 pb-0 d-block">
-                    <span class="project-date">2020</span>
+                    <span class="project-date">2022</span>
                     <br>
                     <p class="mt-3">Wedding Invitation</p>
                   </div>
