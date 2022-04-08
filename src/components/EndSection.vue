@@ -7,7 +7,7 @@
               <i class="fa-brands fa-github"></i></a>
           </span>
           <span class="m-4">
-              <a class="text-white" href="https://www.linkedin.com/in/larisa-camelia-gheorghe-47b86414a/">
+              <a class="text-white" href="https://www.linkedin.com/in/larisa-camelia-gheorghe/">
               <i class="fa-brands fa-linkedin"></i></a>
           </span>
           <span class="m-4">
