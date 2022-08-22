@@ -29,7 +29,7 @@
                 <br>
                 <br>
                 <p class="text-justify">
-                I'm Larisa Gheorghe, a highly motivated self-taught Front End Developer,
+                I'm Larisa Zaharia, a highly motivated self-taught Front End Developer,
                 currently working as a Technical Support Engineer for Solaris Operating System,
                 seeking to move into web development full time. <br>
                 I graduated from the Politehnica University in Bucharest and have a master's
