@@ -24,7 +24,7 @@
         <div class="col-md-12">
           <i id="laptop" class="fa-solid fa-laptop-code"></i>
           <br>
-          <h1 class="mb-0">Larisa Gheorghe</h1>
+          <h1 class="mb-0">Larisa Zaharia</h1>
           <div>FRONT-END DEVELOPER</div>
           <br>
           <div class="switch-mode d-flex justify-content-center">
