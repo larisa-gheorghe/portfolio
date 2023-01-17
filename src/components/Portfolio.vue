@@ -39,10 +39,10 @@ export default {
   name: 'Portfolio',
   methods: {
     redirectToWeddingApp() {
-      window.location.href = 'https://larisa-gheorghe.github.io/vue-wedding-app/';
+      window.location.href = 'https://vue-wedding-app.pages.dev/', '_blank';
     },
     redirectToMusicApp() {
-      window.location.href = 'https://larisa-gheorghe.github.io/vue-music-app/';
+      window.location.href = 'https://vue-music-app.pages.dev/', '_blank';
     },
   },
 };
