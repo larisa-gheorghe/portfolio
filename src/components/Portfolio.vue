@@ -39,10 +39,10 @@ export default {
   name: 'Portfolio',
   methods: {
     redirectToWeddingApp() {
-      window.location.href = 'https://vue-wedding-app.pages.dev/', '_blank';
+      window.location.href = 'https://vue-wedding-app.pages.dev/';
     },
     redirectToMusicApp() {
-      window.location.href = 'https://vue-music-app.pages.dev/', '_blank';
+      window.location.href = 'https://vue-music-app.pages.dev/';
     },
   },
 };
